@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="TaharezLook/FrameWindow" name="menu" >
+        <Property name="Area" value="{{0,0},{0,0},{0.35,0},{0.7,0}}" />
+        <Property name="Alpha" value="0.8" />
+        <Property name="FrameEnabled" value="false" />
+        <Property name="SizingEnabled" value="false" />
+        <Property name="TitlebarEnabled" value="false" />
+        <Property name="ClientAreaColour" value="tl:9964C8FE tr:9964C8FE bl:99010101 br:99010101" />
+        <Property name="VerticalAlignment" value="Centre" />
+        <Property name="CloseButtonEnabled" value="false" />
+        <Property name="HorizontalAlignment" value="Centre" />
+        <Window type="TaharezLook/StaticText" name="title" >
+            <Property name="Area" value="{{0,0},{0.14,0},{0.4,0},{0.28,0}}" />
+            <Property name="Font" value="DejaVuSans-15" />
+            <Property name="Text" value="Duck Hunt" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="HorzFormatting" value="CentreAligned" />
+            <Property name="HorzScrollPageSize" value="167" />
+            <Property name="VertScrollPageSize" value="59" />
+            <Property name="HorizontalAlignment" value="Centre" />
+            <Property name="HorzScrollDocumentSize" value="107" />
+            <Property name="VertScrollDocumentSize" value="23.2812" />
+        </Window>
+        <Window type="TaharezLook/Button" name="playButton" >
+            <Property name="Area" value="{{0,0},{0.4,0},{0.55,0},{0.47,0}}" />
+            <Property name="Text" value="  Play" />
+            <Property name="HorizontalAlignment" value="Right" />
+            <Property name="HorzLabelFormatting" value="LeftAligned" />
+        </Window>
+        <Window type="TaharezLook/Button" name="scoreButton" >
+            <Property name="Area" value="{{0,0},{0.5,0},{0.55,0},{0.57,0}}" />
+            <Property name="Text" value="  Score" />
+            <Property name="HorizontalAlignment" value="Right" />
+            <Property name="HorzLabelFormatting" value="LeftAligned" />
+        </Window>
+        <Window type="TaharezLook/Button" name="exitButton" >
+            <Property name="Area" value="{{0,0},{0.7,0},{0.55,0},{0.77,0}}" />
+            <Property name="Text" value="  Exit" />
+            <Property name="HorizontalAlignment" value="Right" />
+            <Property name="HorzLabelFormatting" value="LeftAligned" />
+        </Window>
+        <Window type="TaharezLook/Button" name="creditsButton" >
+            <Property name="Area" value="{{0,0},{0.6,0},{0.55,0},{0.67,0}}" />
+            <Property name="Text" value="  Credits" />
+            <Property name="HorizontalAlignment" value="Right" />
+            <Property name="HorzLabelFormatting" value="LeftAligned" />
+        </Window>
+    </Window>
+</GUILayout>
